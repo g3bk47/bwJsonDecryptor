@@ -80,6 +80,7 @@ if __name__ == '__main__':
     print("Info: encKeyValidation_DO_NOT_EDIT:", validation)
     vault = decrypt(data["data"], enc_key, mac_key)
     print(vault)
-    with open(sys.argv[1]+".txt","w") as f:
-        f.write(vault)
-    print("Info: decrypted vault written to", sys.argv[1]+".txt")
+    if len(sys.argv) >= 3 and sys.argv[2] == "--write":
+        with open(sys.argv[1]+".txt","w") as f:
+            f.write(vault)
+        print("Info: decrypted vault written to", sys.argv[1]+".txt")
