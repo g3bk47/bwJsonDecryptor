@@ -18,7 +18,7 @@ After entering the password that was used to export the vault, the script prints
 Requires packages ```cryptography``` and optionally ```argon2-cffi```.
 
 ## Testing
-Tested with the export feature directly from vault.bitwarden.com (last tested with version 2024.4.0).
+Tested with the export feature directly from vault.bitwarden.com (last tested with version 2025.8.2).
 
 ## Credit
 Based on the code by https://github.com/GurpreetKang/BitwardenDecrypt.
