@@ -1,6 +1,6 @@
 # bwJsonDecryptor
 
-Simple python script for decrypting bitwarden vaults exported as **password protected** json files (not account restricted json files, see https://bitwarden.com/help/encrypted-export/). Supports PBKDF2 and Argon2id. Note that json backups do not contain file attachments, sends, deleted vault items in the trash and shared items.
+Simple and minimal python script for decrypting bitwarden vaults exported as **password protected** json files (not account restricted json files, see https://bitwarden.com/help/encrypted-export/). Supports PBKDF2 and Argon2id. Note that json backups do not contain file attachments, sends, deleted vault items in the trash and shared items.
 
 ## Usage
 ```
